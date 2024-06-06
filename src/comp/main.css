@@ -1,0 +1,310 @@
+body{
+    background-color: #eee;
+
+}
+
+
+button{
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 4px;
+    overflow: visible;
+    transform: translate3d(0, 0, 0);
+    transition: background 400ms cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: #2680EB;
+    color: #fff;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    margin: 25px;
+    
+
+}
+
+button:hover{
+    background-color: #e4dfdf;
+    color: #2680EB;
+}
+
+
+input{
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0.7rem;
+    padding: 0.5rem 0.5rem;
+ }
+
+ 
+
+
+
+.purple-portal {
+    background: #462d42;
+}
+
+.purple-portal:hover{
+    background-color: #e4dfdf;
+    color: #462d42;
+}
+
+.purple-clear{
+     background: #B7D2EE; 
+       color: black;
+}
+
+
+.purple-clear:hover{
+   color: #000000;
+}
+
+.purple-yelloew{
+    background-color: #ddd85e;
+    color: black;
+}
+.purple-yelloew:hover{
+    color: #2c2b17;
+}
+.eg{
+    background-color:rgb(0, 78, 158);
+}
+
+.force{
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.force button{
+    background-color: rgb(212, 203, 203);
+    color: #2680EB;
+}
+
+.force button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.titel-container{
+    width: 100%;
+    padding: 1.25rem;
+    background: #462d42;
+  
+}
+
+
+.titel-container-home{
+    background: #462d42;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    width: 100%; 
+    height: auto; 
+    max-height: 3rem;
+    font-size: 1rem;
+}
+
+.signOut {
+    margin-left: auto;
+    margin-right: 2rem;
+    height: 2rem;
+  }
+
+
+  .nameUser {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: rgb(82, 78, 78);
+    background-color: white;
+    border-radius: 5px;
+  }
+
+
+.logo-container-login{
+    background: #462d42; 
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start; 
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+
+.button-main-portals{
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: center; 
+    align-items: center;
+   
+
+}
+.select-main{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+
+
+.select-main button{
+    margin-bottom: 0rem;
+}
+
+.select-main {
+    text-align: center;
+    direction: rtl;
+}
+
+
+h4{
+    color: #5c5959;
+    font-size: 0.8rem;
+}
+
+h2{
+    color: #5c5959;
+}
+
+.add-page {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.props-task{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #0000001a;
+    width: 100%;
+    max-width: 25em;
+    height: auto;
+    max-height: 70em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 90%;
+  }
+
+
+
+
+  .container-login{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 2.5rem;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+
+
+
+.erorScreen {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #0000001a;
+    width: 100%;
+    max-width: 40em;
+    height: auto;
+    max-height: 70em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  
+  .googleLogo {
+    width: auto;
+    height: 1rem;
+    background-color: transparent;
+  }
+
+
+.spinner {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+  
+  }
+  
+  
+  .loader {
+    width: 100px;
+    height: 100px;
+    border: 5px solid rgb(158, 158, 158);
+    border-bottom-color: #2680eb;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  
+  }
